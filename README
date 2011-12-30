@@ -1,0 +1,31 @@
+Automated python script
+
+
+open the terminal
+
+"cd ~/Downloads" to enter into the directory(presuming that uproxy.py is downloaded into the "Downloads" directory)
+
+
+"chmod +x uproxy.py" to make it executable
+
+"sudo ./uproxy.py -h" for help
+
+and "sudo ./uproxy.py -A 192.168.1.1 4112 username password"
+to configure proxies with username and password -(substitute your proxyip, port, username and password in the above command)
+
+
+"sudo ./uproxy.py -R" to remove proxy settings when u no longer need it
+
+"sudo ./uproxy.py -P 192.168.1.1 4112" 
+to configure proxies in system not having username and password
+
+
+This is a tool to remove or add proxy settings in Ubuntu 
+The default network proxy tool in Ubuntu is buggy in implementing proxy settings with username and password
+thats where "uproxy.py" comes handy.
+as of now uproxy.py edits/removes proxy information in 3 system files
+more support shall be extended in near future 
+
+
+IMPORTANT : Always use "ubproxy.py -R" to remove any previous settings before
+configuring it further 
