@@ -6,7 +6,9 @@
 #  For further information you may use -I option 
 #	
 #
-#	Author: Sadhanandh Iyer
+#	Author: Sadhanandh Vishwanath
+#
+#	Profile: http://goo.gl/IVg3g
 #
 #	E-mail: sadhanandhiyer[@]gmail[.]com
 #
